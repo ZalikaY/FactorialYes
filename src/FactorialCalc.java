@@ -15,26 +15,29 @@ public class FactorialCalc {
 		
 		//User Prompt
 		System.out.println("Enter an integer that's greater than 0 but less than 10: ");
-		int n = s.nextInt();
-		
 		//Creating continue 
+		int num = s.nextInt();
+		int i ;
+		int factor = 1;
 		String cont = "y";
 		
 		
 		//While loop
-		while (cont.equalsIgnoreCase("Y"));
+		while (cont.equalsIgnoreCase("Y")) {
+		
 		
 		
 		//for loop
-		for (long i = 0;i <= n; i++) {
-			System.out.println( i * i - 1 );
-		}
+		for (i = 1;i <= num; i++) 
+			factor = factor *i;
+			System.out.println(factor);
+		
 		//Continue
 		System.out.println("Continue? (y/n)");
 		s.nextLine();
 		cont =s.nextLine();
-		
-		
+		}
+	}
 		} 
 
 	//Factorial formula
@@ -43,4 +46,4 @@ public class FactorialCalc {
 			    return n * factorial(n-1); 
 	}*/
 
-}
+

@@ -10,21 +10,20 @@ public class FactorialCalc {
 		//Space
 		System.out.println();
 		
-		//Create Scanner
-		Scanner s = new Scanner(System.in);
 		
-		//User Prompt
-		System.out.println("Enter an integer that's greater than 0 but less than 10: ");
-		//Creating continue 
-		int num = s.nextInt();
 		int i ;
-		int factor = 1;
+		long factor = 1;
 		String cont = "y";
 		
 		
 		//While loop
 		while (cont.equalsIgnoreCase("Y")) {
 		
+			//User Prompt
+			System.out.println("Enter an integer that's greater than 0 but less than 10: ");
+			//Create Scanner
+			Scanner s = new Scanner(System.in);
+			int num = s.nextInt();
 		
 		
 		//for loop
@@ -36,6 +35,7 @@ public class FactorialCalc {
 		System.out.println("Continue? (y/n)");
 		s.nextLine();
 		cont =s.nextLine();
+		
 		}
 	}
 		} 

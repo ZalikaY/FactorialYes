@@ -26,9 +26,13 @@ public class FactorialCalc {
 		
 		
 		//for loop
-		for (int i = 0;i <= n; i++) {
-			System.out.println(i * i - 1 );
+		for (long i = 0;i <= n; i++) {
+			System.out.println( i * i - 1 );
 		}
+		//Continue
+		System.out.println("Continue? (y/n)");
+		s.nextLine();
+		cont =s.nextLine();
 		
 		
 		} 

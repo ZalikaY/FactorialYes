@@ -49,7 +49,7 @@ public class FactorialCalc {
 } 
 
 //Factorial formula
-/*	public static int factorial(int n){ 
+/*	public static long factorial(long n){ 
 			    if (n == 1){
 			     return 1;
 			     }else { 

@@ -48,7 +48,7 @@ public class FactorialCalc {
 	}
 } 
 
-//Factorial formula
+//Factorial formula using recursion
 /*	public static long factorial(long n){ 
 			    if (n == 1){
 			     return 1;
